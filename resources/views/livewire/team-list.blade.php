@@ -1,19 +1,9 @@
 <div>
     <div class="min-h-screen bg-gray-900 space-y-4 text-gray-100">
-        <div class="h-12 px-4 flex items-center justify-between bg-gray-950">
-
-            <h1 class="font-extrabold uppercase tracking-widest">Teamzone</h1>
-
-            <a wire:navigate href="/new"
-                class="rounded-full bg-indigo-600 p-1 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path
-                        d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
-                </svg>
-            </a>
 
 
-        </div>
+        <livewire:components.header />
+
 
         @foreach ($members as $person)
             <div class="group bg-gray-800 inner-shadow relative">

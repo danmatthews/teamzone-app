@@ -1762,16 +1762,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.0.0-beta.4",
+            "version": "v3.0.0-beta.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "b57896e44397d7c5b1c42db64dba4c8382959357"
+                "reference": "249b52628d4285f2b1073eeedc3312b265774705"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/b57896e44397d7c5b1c42db64dba4c8382959357",
-                "reference": "b57896e44397d7c5b1c42db64dba4c8382959357",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/249b52628d4285f2b1073eeedc3312b265774705",
+                "reference": "249b52628d4285f2b1073eeedc3312b265774705",
                 "shasum": ""
             },
             "require": {
@@ -1823,7 +1823,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.0.0-beta.4"
+                "source": "https://github.com/livewire/livewire/tree/v3.0.0-beta.5"
             },
             "funding": [
                 {
@@ -1831,7 +1831,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-24T21:57:39+00:00"
+            "time": "2023-07-28T21:10:07+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2010,16 +2010,16 @@
         },
         {
             "name": "nativephp/laravel",
-            "version": "0.1.1",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/laravel.git",
-                "reference": "42ce4e93eb7ed41522f3435acc673ddaf59aa1c7"
+                "reference": "f18c274315fc51931f0f3f628e532ba72d425c4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/42ce4e93eb7ed41522f3435acc673ddaf59aa1c7",
-                "reference": "42ce4e93eb7ed41522f3435acc673ddaf59aa1c7",
+                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/f18c274315fc51931f0f3f628e532ba72d425c4a",
+                "reference": "f18c274315fc51931f0f3f628e532ba72d425c4a",
                 "shasum": ""
             },
             "require": {
@@ -2082,9 +2082,9 @@
             ],
             "support": {
                 "issues": "https://github.com/NativePHP/laravel/issues",
-                "source": "https://github.com/NativePHP/laravel/tree/0.1.1"
+                "source": "https://github.com/NativePHP/laravel/tree/0.2.0"
             },
-            "time": "2023-07-25T22:24:01+00:00"
+            "time": "2023-07-28T11:22:59+00:00"
         },
         {
             "name": "nativephp/php-bin",
@@ -8727,16 +8727,16 @@
         },
         {
             "name": "spatie/flare-client-php",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/flare-client-php.git",
-                "reference": "943894c6a6b00501365ac0b91ae0dce56f2226fa"
+                "reference": "5f2c6a7a0d2c1d90c12559dc7828fd942911a544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/943894c6a6b00501365ac0b91ae0dce56f2226fa",
-                "reference": "943894c6a6b00501365ac0b91ae0dce56f2226fa",
+                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/5f2c6a7a0d2c1d90c12559dc7828fd942911a544",
+                "reference": "5f2c6a7a0d2c1d90c12559dc7828fd942911a544",
                 "shasum": ""
             },
             "require": {
@@ -8785,7 +8785,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/flare-client-php/issues",
-                "source": "https://github.com/spatie/flare-client-php/tree/1.4.1"
+                "source": "https://github.com/spatie/flare-client-php/tree/1.4.2"
             },
             "funding": [
                 {
@@ -8793,7 +8793,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-06T09:29:49+00:00"
+            "time": "2023-07-28T08:07:24+00:00"
         },
         {
             "name": "spatie/ignition",

@@ -20,24 +20,24 @@ class NativeAppServiceProvider
     {
 
 
-        MenuBar::create()
-            ->icon(storage_path('app/menuBarIcon.png'))
-            // ->label("Open Your Site")
-            ->width(400)
-            ->route('home')
-            ->showDockIcon();
+        // MenuBar::create()
+        //     ->icon(storage_path('app/menuBarIconTemplate.png'))
+        //     // ->label("Open Your Site")
+        //     ->width(400)
+        //     ->route('home')
+        //     ->showDockIcon();
 
         // GlobalShortcut::key('Option+t')
         //     ->event(\App\Events\MyEvent::class)
         //     ->register();
 
 
-        // Window::open()
-        //     ->width(400)
-        //     ->route('home')
-        //     ->height(400)
-        //     ->rememberState()
-        //     ->developerTools();
+        Window::open()
+            ->width(400)
+            ->route('home')
+            ->height(400)
+            ->rememberState()
+            ->developerTools();
 
         /**
             Dock::menu(

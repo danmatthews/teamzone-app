@@ -19,7 +19,9 @@ class NewMember extends Component
     public string $name;
 
     #[Rule('required')]
-    public string $timezone;
+    public string $timezone = 'Europe/London';
+
+    public array $workingDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 
     public function save()
     {
